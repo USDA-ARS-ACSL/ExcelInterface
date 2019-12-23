@@ -1,0 +1,9 @@
+8/5/2018 added a file for drip input but am not using it yet
+8/14/2018 program started formatting some values as dates. I had to explicitly
+format some cells as general. I also made sure all the record sets were closed after running 
+a module.
+9/10/2018 added columns for residue to the fertilization table. Now output this to the layer file
+9/17/2018 removed location string from query in create climate table module. Can probably remove it from
+     the spreadsheet. I added a location to the weather table. This way we can choose specific rows from the file.
+  ths location in the description table should point to the rows in the weather table
+
