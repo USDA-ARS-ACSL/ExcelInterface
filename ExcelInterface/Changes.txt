@@ -1,9 +1,15 @@
-8/5/2018 added a file for drip input but am not using it yet
-8/14/2018 program started formatting some values as dates. I had to explicitly
+8/5/2019 added a file for drip input but am not using it yet
+8/14/2019 program started formatting some values as dates. I had to explicitly
 format some cells as general. I also made sure all the record sets were closed after running 
 a module.
-9/10/2018 added columns for residue to the fertilization table. Now output this to the layer file
-9/17/2018 removed location string from query in create climate table module. Can probably remove it from
+9/10/2019 added columns for residue to the fertilization table. Now output this to the layer file
+9/17/20189 removed location string from query in create climate table module. Can probably remove it from
      the spreadsheet. I added a location to the weather table. This way we can choose specific rows from the file.
   ths location in the description table should point to the rows in the weather table
+1/27/2020 Version 5 - added option to input water or matric potential. This needed an extra variable in the soils table called InitType placed after hnew. it probably should go in the initials table.
+2/20/2020 changed all references of soilName to soilFile. in both the database and code. Manually added strings to paste additional variety data to the end of the variety file. Need to put this in the database later.
+this is the version used for agmip2
 
+2/27/2020 removed gridx from the macros. Added ROWspacing to where CO2 was in the excel file. Now we send row spacing to the createsoils program and it creates the x-axis coordinates.
+
+03/02/2020 removed writing of GDD to Maturity
