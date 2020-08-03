@@ -13,3 +13,12 @@ this is the version used for agmip2
 2/27/2020 removed gridx from the macros. Added ROWspacing to where CO2 was in the excel file. Now we send row spacing to the createsoils program and it creates the x-axis coordinates.
 
 03/02/2020 removed writing of GDD to Maturity
+
+4/20/2020  modified fertilizer input to use a depth rathe than nodes for input
+           completely removed xgrid from macros and input database. 
+           changed header for ID in soil table to soilfilename
+
+5/1/2020   created new version, 6 modifed code to write out climate file so it is consistent with maizsim. always need at least an average for concentration of N in precipititation for site averages at the end of the file. Irav is only used for daily weather data
+          writes another filename in the run file at the end for runoff mass balance
+
+
