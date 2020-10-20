@@ -1,3 +1,5 @@
+
+10/20/2020 added more lines of input data to the variety file - leaf morphology, temperature parameters - modifications to variety module only
 8/5/2019 added a file for drip input but am not using it yet
 8/14/2019 program started formatting some values as dates. I had to explicitly
 format some cells as general. I also made sure all the record sets were closed after running 

@@ -1,0 +1,52 @@
+ public List<double> CaclXNodes(double RowSpacing)
+        //This routine returns a vector of values (Segments)for the increments along a line from the starting point to the Length
+        // The first column is node, the second is the Y value. 
+        // This method uses a geometric progression where IntervalRatio is the ratio between two depths
+        // Calculates the nodes for the X dimension (across row). The only input it RowSpacing
+        // parameters for interval, etc are hardcoded.
+        // Returns ArrayList Segments
+        {
+            int i;
+            float Distance;
+            int NumberOfNodes;
+            double dNumberOfNodes; //double version for first approximation
+            double CalculatedLength = 0.0;  //keeps track of the summed length of the segments to compare with
+                                            //the planned length (Length)
+            double Difference;
+            double FirstInterval = .5, IntervalRatio = 1.28;
+            double Length = RowSpacing / 2, StartPoint=0;
+            List<double> Segment = new List<double>();
+            double aux1; //holding variables
+
+            ////code starts here
+            dNumberOfNodes = 1 - Length / FirstInterval * (1 - IntervalRatio);
+            dNumberOfNodes = Math.Log(dNumberOfNodes) / Math.Log(IntervalRatio) + 1;
+            NumberOfNodes = Convert.ToInt16(dNumberOfNodes);
+
+            CalculatedLength = FirstInterval;
+            Segment.Add(StartPoint);
+            Segment.Add(StartPoint + FirstInterval); // x axis increases in value
+            aux1 = FirstInterval;
+            // start at the 3rd node (i=2)
+            for (i = 2; i < NumberOfNodes; i++)
+            {
+                aux1 += FirstInterval * Math.Pow(IntervalRatio, i - 1);
+                Distance = (float)StartPoint + (float)aux1;
+                CalculatedLength += FirstInterval * Math.Pow(IntervalRatio, i - 1);
+                Difference = Length-CalculatedLength;
+                //if we overshot or undershot the distance we have to correct the last length
+                if (i == NumberOfNodes-1)
+                {
+                    if (Math.Abs((float)Difference) < 0)
+                    {
+                        Distance = Distance + (float)Difference;
+                    }
+                    if (Math.Abs((float)Difference) > 0)
+                    {
+                        Distance = (float)Length;
+                    }
+                }
+
+                Segment.Add(Distance);   //if you round up on number of nodes. you will go past the length. This
+                                         //can be calculated as (dNumberOfNodes-NumberOfNodes)
+            }
