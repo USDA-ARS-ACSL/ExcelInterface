@@ -1,0 +1,26 @@
+Print #1, "Corn growth simulation for  "; Hybrid; "   variety "
+Print #1, " Thermal time from flowering to maturity:", C.rs(1), " degree days with Tb=6 °C."
+Print #1, "GDD to      Juvenile   Daylength   StayGreen  LA_min  Rmax_LTAR              Rmax_LTIR                Phyllochrons from "
+Print #1, "maturity    leaves     Sensitive               Leaf tip appearance   Leaf tip initiation       TassellInit"
+Print #1, C.rs("GDD_TO_MAT"), C.rs("JuvenileLeaves"), C.rs("DayLengthSensitive"), C.rs("StayGreen"), _
+             C.rs("LM_min"), C.rs("RMax_LTAR"), C.rs("RMax_LTIR"), C.rs("PhyllFrmTassel")
+Print #1, "[SoilRoot]"
+Print #1, "*** WATER UPTAKE PARAMETER INFORMATION **************************"
+Print #1, " RRRM       RRRY    RVRL"
+Print #1, C.rs("RRRM"), C.rs("RRRY"), C.rs("RVRL")
+Print #1, " ALPM    ALPY     RTWL    RtMinWtPerUnitArea"
+Print #1, C.rs("ALPM"), C.rs("ALPY"), C.rs("RTWL"), C.rs("RTMinWTperArea")
+Print #1, "[RootDiff]"
+Print #1, " *** ROOT MOVER PARAMETER INFORMATION ***"
+Print #1, "EPSI        lUpW             CourMax"
+Print #1, C.rs("EPSI"), C.rs("lUpW"), C.rs("CourMax")
+Print #1, "Diffusivity and geotropic velocity"
+Print #1, C.rs("Diffx"), C.rs("Diffz"), C.rs("Velz")
+Print #1, "[SoilNitrogen]"
+Print #1, "*** NITROGEN ROOT UPTAKE PARAMETER INFORMATION **************************"
+Print #1, "ISINK    Rroot         "
+Print #1, C.rs("ISink"), C.rs("Rroot")
+Print #1, "ConstI   Constk     Cmin0 "
+Print #1, C.rs("ConstI_M"), C.rs("ConstK_M"), C.rs("Cmin0_M")
+Print #1, C.rs("ConstI_Y"), C.rs("ConstK_Y"), C.rs("Cmin0_Y")
+Print #1,
