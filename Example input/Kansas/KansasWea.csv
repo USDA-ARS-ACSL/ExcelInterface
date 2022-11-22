@@ -1,6 +1,6 @@
 ClimateID,WeatherID,jday,date,hour,srad,wind,RH,rain,tmax,tmin,temperature,CO2
-Ashland,AshIrr,1,1/1/2005,1,0,10,67.605,0,,,6.111111111,
-Ashland,AshDry,1,1/1/2005,1,0,10,67.605,0,,,6.111111111,
+Ashland,AshIrr,1,1/1/2005,1,0,10,67.605,0.0001,,,6.111111111,
+Ashland,AshDry,1,1/1/2005,1,0,10,67.605,0.0001,,,6.111111111,
 Ashland,AshIrr,1,1/1/2005,2,0,9,68.467,0,,,6.111111111,
 Ashland,AshDry,1,1/1/2005,2,0,9,68.467,0,,,6.111111111,
 Ashland,AshIrr,1,1/1/2005,3,0,9,70.085,0,,,7.222222222,
