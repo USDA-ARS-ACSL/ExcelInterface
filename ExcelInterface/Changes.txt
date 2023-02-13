@@ -1,3 +1,20 @@
+2/13/2023
+There used to be two versions of maizsim. One was compiled for our interface CLASSIM. this version read in all
+the plant photosynthesis parameters from a file and outputoutput more details about OM in the nodes.
+The other, more current branch had the ability to simulate CO2 and O2 movement as well as the presence
+of a mulch layer at the sureface. There were two versions of the excel interface and createSoilsFiles programs 
+but they used the same input excel spreadsheet.
+
+I have merged these together so there is no longer a dichotomy between versions. This version is uploaded to git
+on 2/13/2023
+this version uses 
+read plant filesV9_mulch (integrated).xlsm
+CreateSoilsFiles.exe
+
+there is no longer a CO2 version
+
+
+
 3/28/2022 have not been keeping up with this. There are two versions, one creates input files for the version that simulates mulch decomposition (see the file name- V7, V6 is the non-mulch). 
 the variety input has been modified for the new parameters needed for the diffusive root model.
 Fixed an error in WriteClimate
