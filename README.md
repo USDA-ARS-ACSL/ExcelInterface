@@ -10,11 +10,12 @@ the Models folder has the executables
 Working examples include data for Kansas dryland (paper in progress), Maryland Eastern Shore (published in Kim et al., 2012) 
 and AgmipET2 from a paper by Kimball et al, now in press
 
+Newly added are the input and output files for maizsim where we published tests of the CO2 model in Geoderma
+
 To run the model, use the root folder set in the excel interface.
 let's say the root is d:/agmipet2 and under this are the data folders, run_01 and run_02
 then the executables would go into the agmipet2 folder and you would run the model as
 d:/agmipET2 > 2dmaizsim ./run_01/runrun01.dat
-Still need to upload weather files for the Solar Corridor simulation
 
 if you use the folder structure in this repository:
 Y:\ExcelInterface
