@@ -1,0 +1,32 @@
+ Volume in drive Y is NewServerC
+ Volume Serial Number is 7CC6-14F6
+
+ Directory of Y:\ExcelInterface\Example input\Kansas\CULI05
+
+06/14/2023  11:53 AM    <DIR>          .
+06/14/2023  11:53 AM    <DIR>          ..
+06/14/2023  11:53 AM               362 BiologyDefault.bio
+06/14/2023  11:53 AM                 0 createError.log
+06/14/2023  11:53 AM               499 CULI05.dat
+06/14/2023  11:53 AM               161 CULI05.drp
+06/14/2023  11:53 AM            23,277 CULI05.grd
+06/14/2023  11:53 AM               545 CULI05.ini
+06/14/2023  11:53 AM             3,759 CULI05.lyr
+06/14/2023  11:53 AM               998 CULI05.man
+06/14/2023  11:53 AM             1,603 CULI05.nit
+06/14/2023  11:53 AM            46,981 CULI05.nod
+06/14/2023  11:53 AM               999 CULI05.soi
+06/14/2023  11:53 AM               466 CULI05.tim
+06/14/2023  11:53 AM            18,740 CULI05.wea
+06/14/2023  11:53 AM               666 CullisonClimate.dat
+06/14/2023  11:53 AM                 0 dir.txt
+06/14/2023  11:53 AM               341 GasID.gas.gas
+06/14/2023  11:53 AM               217 grid1.bat
+06/14/2023  11:53 AM                20 grid2.bat
+06/14/2023  11:53 AM             1,498 MulchGeo1.mul
+06/14/2023  11:53 AM               700 NitrogenDefault.sol
+06/14/2023  11:53 AM             2,590 P32B33.var
+06/14/2023  11:53 AM                97 Rosetta.log
+06/14/2023  11:53 AM             1,656 runCULI05.dat
+              23 File(s)        106,175 bytes
+               2 Dir(s)  229,838,700,544 bytes free

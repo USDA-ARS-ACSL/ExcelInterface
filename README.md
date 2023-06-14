@@ -15,3 +15,15 @@ let's say the root is d:/agmipet2 and under this are the data folders, run_01 an
 then the executables would go into the agmipet2 folder and you would run the model as
 d:/agmipET2 > 2dmaizsim ./run_01/runrun01.dat
 Still need to upload weather files for the Solar Corridor simulation
+
+if you use the folder structure in this repository:
+Y:\ExcelInterface
+you would run the model as:
+2dmaizsim ./"Example input/agmipET2/run_01/runrun_01.dat"
+Your files would be set up this way in the interface:
+Input excel file:	Y:\ExcelInterface\Example input\AgmipET2\AGMIPET2Sim.xlsx
+Root Path:	Y:\ExcelInterface\Example input\AgmipET2
+MaizsimPath	Y:\ExcelInterface
+CreateSoils	Y:\ExcelInterface\CreateSoilFIles
+ExcelInterface	Y:\ExcelInterface\ExcelInterface
+Weather CSV File Folder	Y:\ExcelInterface\Example input\AgmipET2
