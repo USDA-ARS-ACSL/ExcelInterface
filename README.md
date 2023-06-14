@@ -1,5 +1,5 @@
 # ExcelInterface
-This version and input files work with 2DSOIL version 3.0.0 and Maizsim version 1.8.0 (uploaded 2/23/2023)
+This version and input files work with 2DSOIL version 3.1.0.0 and Maizsim version 1.8.0 (uploaded 2/23/2023)
 
 An excel based interface to create the input files needed for the crop models 
 The input data are stored in an excel spreadsheet. 
