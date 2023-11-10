@@ -1,3 +1,8 @@
+11/9/2023
+only minor changes. Just fixed some coding bugs
+select * from the weather file instead of the individual fields 
+7/7/2023
+added irrigation - this includes a new module IrrigM and a new sheet in the input file
 2/13/2023
 There used to be two versions of maizsim. One was compiled for our interface CLASSIM. this version read in all
 the plant photosynthesis parameters from a file and outputoutput more details about OM in the nodes.
