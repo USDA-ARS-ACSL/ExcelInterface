@@ -1,30 +1,3 @@
-11/9/2023
-only minor changes. Just fixed some coding bugs
-select * from the weather file instead of the individual fields 
-7/7/2023
-added irrigation - this includes a new module IrrigM and a new sheet in the input file
-2/13/2023
-There used to be two versions of maizsim. One was compiled for our interface CLASSIM. this version read in all
-the plant photosynthesis parameters from a file and outputoutput more details about OM in the nodes.
-The other, more current branch had the ability to simulate CO2 and O2 movement as well as the presence
-of a mulch layer at the sureface. There were two versions of the excel interface and createSoilsFiles programs 
-but they used the same input excel spreadsheet.
-
-I have merged these together so there is no longer a dichotomy between versions. This version is uploaded to git
-on 2/13/2023
-this version uses 
-read plant filesV9_mulch (integrated).xlsm
-CreateSoilsFiles.exe
-
-there is no longer a CO2 version
-
-
-
-3/28/2022 have not been keeping up with this. There are two versions, one creates input files for the version that simulates mulch decomposition (see the file name- V7, V6 is the non-mulch). 
-the variety input has been modified for the new parameters needed for the diffusive root model.
-Fixed an error in WriteClimate
-added code in input litter in WriteManagment.
-
 
 10/20/2020 added more lines of input data to the variety file - leaf morphology, temperature parameters - modifications to variety module only
 8/5/2019 added a file for drip input but am not using it yet
@@ -49,5 +22,19 @@ this is the version used for agmip2
 
 5/1/2020   created new version, 6 modifed code to write out climate file so it is consistent with maizsim. always need at least an average for concentration of N in precipititation for site averages at the end of the file. Irav is only used for daily weather data
           writes another filename in the run file at the end for runoff mass balance
+
+Nov 22, 2022
+The versions loaded today add CO2 and O2 gas transport. New parameter files were added and new columns for the soil data (CO2 and O2 concentrations are soil properties). A new sheet “GAS” was added to hold the gas params
+
+Added new categories for fertilization litter and manure carbon and nitrogen. These are Kg/ha total carbon and nitrogen for any fertilizer as incorporated manure or litter (like biomass from prev crop)
+
+Added a tillage operation - only moldboard for now
+
+Added the ability to read weather from a csv file and create weather files for each folder. 
+
+Also started adding units to some of the field headers to reduce confusion when creating data files.
+
+
+6/20/2024  not keeping up with changes well. Since February added nitrous as a gas and ponded infiltration.
 
 
