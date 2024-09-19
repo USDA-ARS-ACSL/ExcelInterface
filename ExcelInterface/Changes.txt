@@ -36,5 +36,6 @@ Also started adding units to some of the field headers to reduce confusion when 
 
 
 6/20/2024  not keeping up with changes well. Since February added nitrous as a gas and ponded infiltration.
+9/17/2024  clarified units for irrigation. added parameters for ponded irrigation by flux. added water parameter file to the database
 
 
