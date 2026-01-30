@@ -1,5 +1,5 @@
 # ExcelInterface
-This version and input files work with 2DSOIL version 3.1.0.0 and Maizsim version 1.8.0 (uploaded 2/23/2023)
+This version and input files work with 2DSOIL version 3.1.2.0 and Maizsim version 1.8.1 (uploaded 9/23/2025)
 
 An excel based interface to create the input files needed for the crop models 
 The input data are stored in an excel spreadsheet. 
@@ -8,9 +8,10 @@ A special Excel file contains VBA code to pull data from the spreadsheet and cre
 the Models folder has the executables 
 
 Working examples include data for Kansas dryland (paper in progress), Maryland Eastern Shore (published in Kim et al., 2012) 
-and AgmipET2 from a paper by Kimball et al, now in press
+and AgmipET2 from a paper by Kimball et al, https://doi.org/10.1016/j.agrformet.2023.109396
 
-Newly added are the input and output files for maizsim where we published tests of the CO2 model in Geoderma
+5/23/2024 Newly added are the input and output files for maizsim where we published tests of the CO2 model in Geoderma
+1/30/2026 Added files for a comparision of maizsim for a topical and temperate location - paper in review
 
 To run the model, use the root folder set in the excel interface.
 let's say the root is d:/agmipet2 and under this are the data folders, run_01 and run_02
