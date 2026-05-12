@@ -1,0 +1,15 @@
+AgMIP_Low_Input_Smallholder																							
+Model:																							
+Modeler_name:																							
+Model	Site.name	Experiment.name	Planting.date	Yield	Emergence	Ant	Mat	GNumber	Gweight	Biom-an	Biom-ma	MaxLAI	CumE	Transp	CroN-ma	CroP-ma	GrainN	Nleac	Nmin	Nvol	Nimmo	Nden	SoilN
+(2letters)	(-)	(-)	(YYYY-MM-DD)	(t/ha)	(YYYY-MM-DD)	(YYYY-MM-DD)	(YYYY-MM-DD)	(grain/m2)	mg	(t/ha)	(t/ha)	(-)	(mm)	(mm)	(kgN/ha)	(kgP/ha)	(kgN/ha)	(kgN/ha)	(kgN/ha)	(kgN/ha)	(kgN/ha)	(kgN/ha)	(kgN/ha)
+na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na
+na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na
+na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na
+na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na
+na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na
+na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na
+na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na
+na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na
+na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na
+na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na	na

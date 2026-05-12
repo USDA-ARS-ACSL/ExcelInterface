@@ -1,0 +1,33 @@
+ Volume in drive D is Win7D
+ Volume Serial Number is 8862-B5C5
+
+ Directory of d:\MAIZSIM07\AgMipLowInputC_2\BEOU1501
+
+05/11/2026  04:24 PM    <DIR>          .
+05/11/2026  04:22 PM    <DIR>          ..
+05/11/2026  04:22 PM               832 BEOU.nit
+05/11/2026  04:22 PM             2,584 BEOU.var
+05/11/2026  04:22 PM               161 BEOU1501.drp
+05/11/2026  04:24 PM             6,979 BEOU1501.grd
+05/11/2026  04:22 PM               547 BEOU1501.ini
+05/11/2026  04:22 PM               393 BEOU1501.irr
+05/11/2026  04:22 PM             2,372 BEOU1501.lyr
+05/11/2026  04:22 PM               523 BEOU1501.man
+05/11/2026  04:24 PM            14,485 BEOU1501.nod
+05/11/2026  04:22 PM               464 BEOU1501.tim
+05/11/2026  04:22 PM            15,014 BEOU1501.wea
+05/11/2026  04:22 PM               643 BEOU1501Climate.dat
+05/11/2026  04:24 PM               249 BEOU2_SO.dat
+05/11/2026  04:24 PM               626 BEOU2_SO.soi
+05/11/2026  04:22 PM               362 BiologyDefault.bio
+05/11/2026  04:24 PM                 0 createError.log
+05/11/2026  04:24 PM                 0 dir.txt
+05/11/2026  04:22 PM               355 GasID.gas.gas
+05/11/2026  04:22 PM               207 grid1.bat
+05/11/2026  04:22 PM             1,506 MulchGeo1.mul
+05/11/2026  04:22 PM               504 NitrogenDefault.sol
+05/11/2026  04:24 PM               221 Rosetta.log
+05/11/2026  04:22 PM             1,554 runBEOU1501.dat
+05/11/2026  04:22 PM               290 WaterMovDefault.dat
+              24 File(s)         50,871 bytes
+               2 Dir(s)  1,424,958,074,880 bytes free

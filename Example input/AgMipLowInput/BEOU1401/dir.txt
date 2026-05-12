@@ -1,0 +1,45 @@
+ Volume in drive D is Win7D
+ Volume Serial Number is 8862-B5C5
+
+ Directory of d:\MAIZSIM07\AgMipLowInputC_2\BEOU1401
+
+05/11/2026  04:24 PM    <DIR>          .
+05/11/2026  04:22 PM    <DIR>          ..
+05/11/2026  04:16 PM                29 2DSOIL03.LOG
+05/11/2026  04:22 PM               832 BEOU.nit
+05/11/2026  04:22 PM             2,584 BEOU.var
+05/11/2026  04:22 PM               161 BEOU1401.drp
+05/11/2026  04:18 PM           874,379 BEOU1401.g01
+05/11/2026  04:18 PM         3,606,708 BEOU1401.g02
+05/11/2026  04:18 PM         2,524,697 BEOU1401.G03
+05/11/2026  04:18 PM         1,455,445 BEOU1401.G04
+05/11/2026  04:18 PM            36,528 BEOU1401.G05
+05/11/2026  04:18 PM            26,471 BEOU1401.G06
+05/11/2026  04:18 PM         1,912,695 BEOU1401.G07
+05/11/2026  04:24 PM             6,979 BEOU1401.grd
+05/11/2026  04:22 PM               547 BEOU1401.ini
+05/11/2026  04:22 PM               393 BEOU1401.irr
+05/11/2026  04:22 PM             2,372 BEOU1401.lyr
+05/11/2026  04:22 PM               523 BEOU1401.man
+05/11/2026  04:24 PM            14,485 BEOU1401.nod
+05/11/2026  04:22 PM               464 BEOU1401.tim
+05/11/2026  04:22 PM            14,330 BEOU1401.wea
+05/11/2026  04:22 PM               643 BEOU1401Climate.dat
+05/11/2026  04:24 PM               249 BEOU1_SO.dat
+05/11/2026  04:24 PM                 0 BEOU1_SO.soi
+05/11/2026  04:22 PM               362 BiologyDefault.bio
+05/11/2026  04:24 PM                 0 createError.log
+05/11/2026  04:24 PM                 0 dir.txt
+05/11/2026  04:22 PM               355 GasID.gas.gas
+05/11/2026  04:22 PM               207 grid1.bat
+05/11/2026  04:18 PM            42,056 MassBl.out
+05/11/2026  04:17 PM               120 MassBlMulch.out
+05/11/2026  04:18 PM             9,512 MassBlRunOff.out
+05/11/2026  04:22 PM             1,506 MulchGeo1.mul
+05/11/2026  04:22 PM               504 NitrogenDefault.sol
+05/11/2026  04:18 PM             3,883 plantstress.crp
+05/11/2026  04:24 PM                 0 Rosetta.log
+05/11/2026  04:22 PM             1,554 runBEOU1401.dat
+05/11/2026  04:22 PM               290 WaterMovDefault.dat
+              36 File(s)     10,541,863 bytes
+               2 Dir(s)  1,424,958,103,552 bytes free

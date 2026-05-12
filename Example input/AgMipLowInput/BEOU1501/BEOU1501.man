@@ -1,0 +1,15 @@
+****Script for chemical application module  *******mg/cm2= kg/ha* 0.01*rwsp*eomult*100
+Number of Fertilizer applications (max=25) mappl is in total mg N applied to grid 
+(1 kg/ha = 1 mg/m2/width of application) application divided by 
+width of grid in cm is kg ha-1
+ 0 
+No fertilization
+No fertilization
+[Residue]
+****Script for residue/mulch application module
+**** Residue amount can be thickness (cm) ('t') or mass t/ha('m')   ***
+application  1 or 0, 1(yes) 0(no)
+0
+[Tillage]
+1: Tillage , 0: No till
+ 0 
